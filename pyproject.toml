@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "try-aresponse"
+version = "0.1.0"
+description = "Example of aresponses usage"
+authors = ["Timofey Stolbov <timofey@stolbov.info>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.6.2"
+
+[tool.poetry.dev-dependencies]
+pytest-asyncio = "^0.12.0"
+aresponses = "^2.0.0"
+pytest = "^5.4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
